@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public abstract class Trader<T> {
+public class Trader<T> {
     private final List<T> inventory;
     private final List<T> wishlist;
     private int money;
@@ -51,7 +51,7 @@ public abstract class Trader<T> {
     /* TODO: Implement the method addToWishlist that takes an
      *       object of type T and adds it to this Trader's wishlist.
      */
-    public void addToWishList(T itemToAdd) {
+    public void addToWishlist(T itemToAdd) {
         this.wishlist.add(itemToAdd);
     }
 
